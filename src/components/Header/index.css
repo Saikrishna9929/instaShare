@@ -1,0 +1,156 @@
+.header-nav-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 80px;
+  flex-shrink: 0;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+@media screen and (min-width: 768px) {
+  .header-nav-container {
+    height: 12vh;
+    flex-shrink: 0;
+    padding-left: 200px;
+    padding-right: 200px;
+    border-bottom: 2px solid #dbdbdb;
+  }
+}
+.nav-logo-link {
+  text-decoration: none;
+}
+.nav-logo-container {
+  display: flex;
+  align-items: center;
+}
+.nav-logo-img {
+  width: 59px;
+  height: 30px;
+  flex-shrink: 0;
+}
+.nav-logo-title {
+  color: #262626;
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  margin-left: 12px;
+  line-height: 24px; /* 120% */
+}
+.nav-list-items-container {
+  list-style-type: none;
+  padding-left: 0px;
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+
+@media screen and (max-width: 768px) {
+  .nav-list-items-container {
+    display: none;
+  }
+}
+.nav-search-item-container {
+  display: flex;
+  align-items: center;
+  width: 214px;
+  height: 28px;
+  flex-shrink: 0;
+  border-radius: 3px;
+  border: 1px solid #dbdbdb;
+  background: #fafafa;
+}
+.nav-input-search {
+  width: 179px;
+  height: 26px;
+  flex-shrink: 0;
+  border: none;
+  outline: none;
+  padding-left: 10px;
+  color: #989898;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.nav-search-button {
+  width: 34px;
+  height: 26px;
+  flex-shrink: 0;
+  border-radius: 0px 2px 2px 0px;
+  background: #dbdbdb;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav-link-item {
+  text-decoration: none;
+}
+.nav-item {
+  color: #262626;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 18px; /* 128.571% */
+}
+.logout-button {
+  padding: 8px 24px;
+  border-radius: 4px;
+  background: #4094ef;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: #fff;
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px; /* 133.333% */
+}
+.active-tab {
+  color: #4094ef;
+}
+.menu-button {
+  border: none;
+  background-color: transparent;
+}
+@media screen and (min-width: 768px) {
+  .menu-button {
+    display: none;
+  }
+}
+.nav-modal-container {
+  display: flex;
+  padding-bottom: 35px;
+  position: fixed;
+  top: 80px;
+  left: 0;
+  width: 100%;
+  height: 80px;
+  background-size: cover;
+  padding-left: 24px;
+  padding-right: 24px;
+  background-size: cover;
+  background-color: #ffffff;
+}
+@media screen and (min-width: 768px) {
+  .nav-modal-container {
+    display: none;
+  }
+}
+.nav-modal-list-items-container {
+  width: 100%;
+  display: flex;
+  list-style-type: none;
+  padding-left: 0px;
+  align-items: center;
+  justify-content: space-between;
+}
+.menu-close-button {
+  border: none;
+  background-color: transparent;
+}
